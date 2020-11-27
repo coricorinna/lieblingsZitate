@@ -1,0 +1,127 @@
+body, html{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(63, 64, 65);
+    margin: auto;
+    width: 80%;
+}
+/*
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(192, 83, 147);
+}
+*/
+
+div {
+    font-size: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase
+  }
+  h3 {
+    font-size: 18px
+  }
+ 
+  .active {
+    text-decoration: overline
+  }
+  
+  a:focus, a:hover {
+    color: black;
+  }
+  a {
+    color: black
+  }
+  a.link {
+    color: black
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .secondary_header {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2) !important;
+    text-align: center;
+    background-color: rgb(67, 135, 167);
+    -webkit-box-shadow: 0 3px 16px 0 lightgray;
+    -moz-box-shadow: 0 3px 16px 0 lightgray;
+    box-shadow: 0 3px 16px 0 lightgray;
+    
+  }
+  .container .secondary_header ul {
+    margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .secondary_header ul li {
+    list-style: none;
+    float: left;
+    margin-right: auto;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: black;
+    letter-spacing: 1px;
+    margin-left: auto;
+    text-align: center;
+    width: 6%;
+    transition: all 0.3s linear;
+  }
+
+  .secondary_header ul li:hover {
+    color: #717070;
+    cursor: pointer;
+  }
+
+  .title {
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 20px
+  }
+
+  .footer {
+    z-index: 999;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    clear: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2) !important;
+    background-color: rgb(102, 166, 196);
+  }
+
+  .copyright {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
